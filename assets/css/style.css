@@ -1,0 +1,15 @@
+:root {
+
+    --colorone: #FFF5F9;
+    --colortwo: #FA2A70;
+
+  }
+
+
+body {
+
+    background-color: var(--colorone);
+    color: var(--colortwo);
+    font-family: Helvetica, Arial, sans-serif;
+
+}

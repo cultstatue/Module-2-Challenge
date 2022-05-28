@@ -12,4 +12,48 @@ body {
     color: var(--colortwo);
     font-family: Helvetica, Arial, sans-serif;
 
+
+}
+
+/* header styles start */
+
+header {
+    
+    display: flex;
+    padding: 20px 35px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.headertext {
+
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+
+}
+
+.headerimg {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.headerimg img {
+
+    width: 400px;
+
+}
+
+header nav ul  {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
 }

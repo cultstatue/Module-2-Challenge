@@ -20,6 +20,7 @@ body {
     background-color: var(--colorone);
     color: var(--colortwo);
     font-family: Helvetica, Arial, sans-serif;
+    padding: 50px 100px 100px 50px;
 
 }
 
@@ -28,7 +29,6 @@ body {
 header {
     
     display: flex;
-    padding: 20px 35px;
     align-items: center;
     flex-direction: column;
 
@@ -40,7 +40,8 @@ header {
     text-align: center;
     margin-top: 30px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1vw;
+    font-weight: lighter;
 
 }
 
@@ -60,9 +61,10 @@ header {
 header nav {
 
     order: 3;
-    margin: 30px 40px;
+    margin: 30px 30px;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 2.5vw;
+
    
 }
 
@@ -82,7 +84,7 @@ header nav ul li a {
     padding: 80px 60px;
     color: var(--colorthree);
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 
 }
 
@@ -92,3 +94,42 @@ header nav ul li a:hover {
     font-style: italic;
 
 }
+
+/* header style ends */
+
+/* content style begins */
+
+.content {
+
+    display: flex;
+    padding: 15px auto 50px auto;
+    margin: 20px;
+    align-items: center;
+
+}
+
+.content h2 {
+
+    font-size: 3vw;
+    padding-right: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    flex-basis: 50rem;
+    font-style: italic;
+    text-align: right;
+
+}
+
+.content p {
+
+    font-size: 1vw;
+    line-height: 1.5;
+    padding: 20px 30px 30px 20px;
+    background-color: white;
+    border-left: 10px solid;
+    font-weight: lighter;
+    border-radius: 20px;
+    flex-basis: 200rem;
+
+}
+

@@ -106,7 +106,6 @@ nav ul li a {
 nav ul li a:hover {
 
     color: var(--colorfour);
-    font-style: italic;
 
 }
 
@@ -129,7 +128,6 @@ nav ul li a:hover {
 
     font-size: 3vw;
     padding-right: 20px;
-    text-align: center;
     margin: 0 auto 35px auto;
     flex:15%;
     font-style: italic;
@@ -248,3 +246,48 @@ nav ul li a:hover {
 }
 
 /* projects styles end */
+
+/* contact styles begin */
+
+.contacts {
+
+    background-color: var(--colorone);
+    flex: 25%;
+    text-align: center;
+    border: 3px solid;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 15px 32px;
+
+}
+
+
+.contacts:hover {
+
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: var(--colorthree); 
+
+}
+
+.contacts p {
+
+    text-shadow: none;
+    font-size: 3.0vh;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.contacts p:hover {
+
+    color: var(--colorone);
+
+}
+
+.contacts a, a:hover, a:visited, a:active {
+
+    color: inherit;
+    text-decoration: none;
+    
+   }

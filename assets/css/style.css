@@ -3,7 +3,7 @@
     --colorone: #FFF5F9;
     --colortwo: #FA2A70;
     --colorthree: #FD2267;
-    --colorfour: #931D42;
+    --colorfour: #CF1B53;
 
   }
   
@@ -79,6 +79,7 @@ nav {
     justify-content: center;
     width: 100%;
     border-radius: 25px;
+    z-index: 9999;
    
 }
 
@@ -120,6 +121,7 @@ nav ul li a:hover {
     margin: 20px;
     align-items: center;
     flex: wrap;
+    
 
 }
 
@@ -129,65 +131,120 @@ nav ul li a:hover {
     padding-right: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    flex-basis: 15%;
+    flex:15%;
     font-style: italic;
     text-align: right;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-shadow:  3px 2px rgba(0, 0, 0, 0.3);
 
 }
 
 .incontent {
 
-    font-size: 1vw;
-    line-height: 1.5;
     padding: 20px 30px 30px 20px;
     background-color: white;
-    border-left: 10px solid;
-    font-weight: lighter;
+    border-left: 10px solid var(--colorthree);
     border-radius: 20px;
-    flex-basis: 90%;
-    display: flex;
-    align-items: stretch;
-    flex: wrap;
-}
-
-
-.mainproject {
-
-    
+    flex: 85%;
     flex-grow: 1;
-    align-self: flex-start;
-    background-color: #931D42;
-    padding: 10px 10px 5px 10px;
-    border-radius: 25px;
-    flex-grow: 4;
-
-
+    flex-shrink: 1;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-.mainproject img {
-
-    max-width: 100%;
-    height: 100%;
-    flex-grow: 4;
-
-}
-
-
-.sideproject {
-
     
-    align-self: flex-start;
-    order: 2;
-    flex-shrink: 4;
-    background-color: #931D42;
-    padding: 0px 10px 5px 10px;
-    border-radius: 25px;
+.incontent p {
+
+    font-size: 1.3vw;
+    line-height: 1.5;
+    font-weight: lighter;
 
 }
-.sideproject img {
 
-    max-width: 100%;
-    height: auto;
-    flex-shrink: 4;
+/* content styles ends*/
+
+/* projects styles begin */
+
+.projects {
+
+    flex: 25%;
+    height: 300px;
+    background-image: url("../images/placehold1.jpeg");
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid var(--colorthree);
+    border-radius: 20px;
+    display: flex;
 
 }
+
+.projects:hover {
+
+    opacity: 0.8;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.project1 {
+
+    flex: 100%;
+    height: 500px;
+
+}
+
+.projecttitle {
+
+    background-color: var(--colorthree);
+    height: 15%;
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.projecttitle a {
+
+    text-decoration: none;
+
+}
+
+.projecttitle h3 {
+
+    font-size: 2.3vh;
+    color: var(--colorone);
+    padding: 3px 3px 3px 15px;
+    font-weight: lighter;
+    flex-shrink: 1;
+
+}
+
+.projecttitle p {
+
+    color: #FFE6EE;
+    line-height: .9;
+    padding: 3px 3px 3px 15px;
+    font-size: 1.8vh;
+    font-style: italic;
+    flex-shrink: 1;
+
+}
+
+.projecttitle2 {
+
+    height: 25%;
+    width: 40%;
+
+}
+
+.projecttitle3 {
+
+    height: 25%;
+    width: 35%;
+
+}
+
+/* projects styles end */

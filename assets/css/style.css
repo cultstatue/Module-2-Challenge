@@ -20,7 +20,7 @@ body {
     background-color: var(--colorone);
     color: var(--colortwo);
     font-family: Helvetica, Arial, sans-serif;
-    padding: 50px 100px 50px 100px;
+    padding: 10px;
 
 }
 
@@ -32,13 +32,11 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    align-self: flex-start;
 
 }
 
 .headertext {
 
-    order: 2;
     text-align: center;
     margin-top: 30px;
     font-style: italic;
@@ -49,7 +47,6 @@ header {
 
 .headerimg {
 
-    order: 1;
     align-items: center;
 
 }
@@ -57,6 +54,7 @@ header {
 .headerimg img {
 
     width: 200px;
+    padding: 10px;
 
 }
 
@@ -66,19 +64,14 @@ header {
 
 nav {
 
-    order: 3;
-    margin: 30px;
     font-weight: bolder;
     font-size: 2vw;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: var(--colorone);
-    display: flex;
-    flex: wrap;
     justify-content: center;
     width: 100%;
-    border-radius: 25px;
     z-index: 9999;
    
 }
@@ -87,16 +80,15 @@ nav ul  {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
-    padding: 20px 15px 15px 20px;
+    padding: 15px;
+    justify-content: center;
 
 }
 
 nav ul li a {
 
-    padding: 80px 60px;
+    padding: 30px 30px;
     color: var(--colorthree);
     text-decoration: none;
     letter-spacing: 2px;
@@ -201,6 +193,7 @@ nav ul li a:hover {
     text-align: left;
     border-radius: 15px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    flex-shrink: 1;
 
 }
 
@@ -303,4 +296,67 @@ footer {
     font-size: 1.5vh;
     word-spacing: 5px;
   
+}
+
+/* footer style ends */
+
+/* media queries begin */
+
+@media screen and (max-width: 1566px) {
+
+    .content {
+
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+
+    .incontent {
+
+        flex-direction: column;
+    }
+
+    .projects {
+
+        flex: 1 1 auto;
+    }
+
+    .projecttitle {
+
+        width: 90%;
+        height: 15%;
+
+    }
+
+    .projecttitle2, .projecttitle3 {
+
+        height: 25%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    p, .content p {
+
+        font-size: 1.8vh;
+
+    }
+
+    nav, .content h2 {
+    
+        font-size: 3.0vh;
+    
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    body {
+
+        padding: 0;
+        
+    }
+
 }

@@ -10,6 +10,9 @@
 ## Website
 https://cultstatue.github.io/Module-2-Challenge/
 
+![_Users_maddiedoutt_Desktop_m2-challenge_index html](https://user-images.githubusercontent.com/105083634/171544548-8077de60-8aca-4bbf-9d9f-58613df4b045.png)
+
+
 ## Contribution
 Maddie Doutt / cultstatue
 

@@ -53,12 +53,12 @@ header h1 {
     margin: 15px;
     text-shadow:  3px 2px rgba(0, 0, 0, 0.3);
    
-
 }
 
 header a {
 
     text-decoration: none;
+    color: var(--colortwo);
 
 }
 

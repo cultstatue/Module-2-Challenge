@@ -45,16 +45,20 @@ header {
 
 }
 
-.headerimg {
+header h1 {
 
-    align-items: center;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: lighter;
+    margin: 15px;
+    text-shadow:  3px 2px rgba(0, 0, 0, 0.3);
+   
 
 }
 
-.headerimg img {
+header a {
 
-    width: 200px;
-    padding: 10px;
+    text-decoration: none;
 
 }
 
@@ -161,7 +165,7 @@ nav ul li a:hover {
 
     flex: 25%;
     height: 300px;
-    background-image: url("../images/placehold1.jpeg");
+    background-color: var(--colorfour);
     margin: 5px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -339,7 +343,7 @@ footer {
 
     }
 
-    nav, .content h2 {
+    nav, .content h2, header h1 {
     
         font-size: 3.0vh;
     
